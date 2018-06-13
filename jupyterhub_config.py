@@ -1,0 +1,10 @@
+c.JupyterHub.base_url = '/bigdata/jupyter'
+c.JupyterHub.cookie_secret_file = '/usr/share/jupyter/hub/jupyterhub_cookie_secret'
+c.JupyterHub.data_files_path = '/usr/share/jupyter/hub'
+c.JupyterHub.db_url = 'sqlite:///usr/share/jupyter/hub/jupyterhub.sqlite'
+c.JupyterHub.pid_file = '/usr/share/jupyter/hub/jupyterhub.pid'
+c.JupyterHub.spawner_class = 'sudospawner.SudoSpawner'
+c.PAMAuthenticator.open_sessions = False
+c.JupyterHub.cookie_max_age_days = 0.04
+c.JupyterHub.extra_log_file = '/var/log/jupyterhub/jupyterhub.log'
+c.JupyterHub.port = 8000
