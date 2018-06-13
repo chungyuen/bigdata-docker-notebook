@@ -1,0 +1,2 @@
+Cmnd_Alias JUPYTER_CMD = /usr/bin/sudospawner
+jupyterhub ALL=(%jupyterhub) NOPASSWD:JUPYTER_CMD
